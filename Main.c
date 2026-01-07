@@ -11,8 +11,8 @@
 int main()
 {
 	/* Version variables: */
-	#define SIZE_OF_C_FULL_VERSION  100.0L /* Size Of C full version variable (1.0.0). */
-	#define SIZE_OF_C_MAJOR_VERSION   1.0L /* Size Of C major version variable (1).    */
+	#define SIZE_OF_C_FULL_VERSION  200.0L /* Size Of C full version variable (2.0.0). */
+	#define SIZE_OF_C_MAJOR_VERSION   2.0L /* Size Of C major version variable (2).    */
 	#define SIZE_OF_C_MINOR_VERSION   0.0L /* Size Of C minor version variable (0).    */
 	#define SIZE_OF_C_PATCH_VERSION   0.0L /* Size Of C patch version variable (0).    */
 
