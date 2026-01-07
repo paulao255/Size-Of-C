@@ -4,6 +4,7 @@
 
 /* Importations: */
 #include <stdio.h>
+#include <stdbool.h>
 
 
 /* Main code: */
@@ -19,6 +20,7 @@ int main()
 	char array[8192] = "Pizza!";           /* Stored array variable.                   */
 
 	printf("Size of char: %zu byte(s).\n", sizeof(char));
+	printf("Size of bool: %zu byte(s).\n", sizeof(bool));
 	printf("Size of short int: %zu byte(s).\n", sizeof(short int));
 	printf("Size of int: %zu byte(s).\n", sizeof(int));
 	printf("Size of long int: %zu byte(s).\n", sizeof(long int));
