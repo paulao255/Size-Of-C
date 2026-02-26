@@ -7,17 +7,13 @@
 #include <stdbool.h>
 
 
-/* Main code: */
-int main()
-{
-	/* Version variables: */
-	#define SIZE_OF_C_FULL_VERSION  200.0L /* Size Of C full version variable (2.0.0). */
-	#define SIZE_OF_C_MAJOR_VERSION   2.0L /* Size Of C major version variable (2).    */
-	#define SIZE_OF_C_MINOR_VERSION   0.0L /* Size Of C minor version variable (0).    */
-	#define SIZE_OF_C_PATCH_VERSION   0.0L /* Size Of C patch version variable (0).    */
+#define SIZE_OF_C_FULL_VERSION 20260225 /* Size Of C full version define. */
 
+/* Main code: */
+int main(void)
+{
 	/* Array variable: */
-	char array[8192] = "Pizza!";           /* Stored array variable.                   */
+	char array[8192] = "Pizza!";    /* Stored array variable.         */
 
 	printf("Size of char: %zu byte(s).\n", sizeof(char));
 	printf("Size of bool: %zu byte(s).\n", sizeof(bool));
@@ -34,7 +30,7 @@ int main()
 	fgets(array, sizeof(array), stdin);
 
 	printf("New value: %s\n", array);
-	printf("Memory value (in bytes): %zu (8 KiBs).\n", sizeof(array));
+	printf("Memory value (in bytes): %zu.\n", sizeof(array));
 
 	return 0;
 }
